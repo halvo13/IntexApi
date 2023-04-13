@@ -24,7 +24,7 @@ async def read_root():
 @app.post('/predict')
 def predict(data:dict):
   # Load model from .pkl file
-  with open('./model.pkl','rb') as file:
+  with open('./dc_model.pkl','rb') as file:
     model = pickle.load(file)
     # Convert input data to DataFrame
     df = pd.DataFrame(data, index=[0])
