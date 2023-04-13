@@ -35,3 +35,19 @@ def predict(data:dict):
   
 
 #   Elastic Ip Address = 3.220.72.68
+
+# ORDER FOR POSTMAN :
+# 'squarenorthsouth'
+# 'squareeastwest'
+# 'adultsubadult_A'
+# 'adultsubadult_C'
+# 'adultsubadult_N LL'
+# 'area_NE'
+# 'area_NNW'
+# 'area_NW'
+# 'area_SE'
+# 'area_SW'
+# 'depthlevel_Deep'
+# 'depthlevel_MidDeep'
+# 'depthlevel_MidShallow'
+# 'depthlevel_Shallow'
